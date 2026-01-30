@@ -6,27 +6,34 @@
     <title>Document</title>
   </head>
   <body>
-    <!--text-->
-    <input type="text" placeholder="Username" id="username" name="us" />
-    <!--password-->
-    <input type="password" placeholder="Password" />
-    <!--email-->
-    <input type="email" name="email" id="email" />
-    <!--number-->
-    <!--checkbox-->
-    <input type="checkbox" name="is-broke" id="is-broke" checked />
-    <!--radio-->
-    <input type="radio" name="has-pants" id="" />
-    <input type="radio" name="has-pants" id="" />
-    <input type="radio" name="has-pants" id="" />
-    <!--date-->
-    <input type="date" name="" id="" />
-    <!--file-->
-    <input type="file" name="" id="" />
-    <!--submit-->
-    <input type="submit" value="Register" />
-    <!--label-->
-    <label for="gamer-tag">Write your gamer tag</label>
-    <input type="text" name="" id="gamer-tag" placeholder="Gamer Tag" />
+    <form action="" method="post">
+      <fieldset>
+        <legend>Register information</legend>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          required
+          value="i m admin"
+        />
+        <input
+          type="password"
+          name="password"
+          id="Password"
+          placeholder="Password"
+        />
+        <input type="checkbox" name="terms" id="terms" checked />
+        <fieldset>
+          <legend>Gamer information</legend>
+          <input
+            type="text"
+            name="gameLogin"
+            id="gameLogin"
+            placeholder="Game Login"
+          />
+        </fieldset>
+        <input type="submit" value="Register" />
+      </fieldset>
+    </form>
   </body>
 </html>
